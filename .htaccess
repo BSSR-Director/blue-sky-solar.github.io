@@ -8,8 +8,11 @@ RewriteRule ^ https://www.%1%{REQUEST_URI} [L,NE,R=301]
 <IfModule mod_rewrite.c>
 
 RewriteEngine on
-RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
-RewriteRule ^ /%1 [NC,L,R]
+RewriteCond %{THE_REQUEST} /([^.]+).html [NC]
+
+RewriteRule .+ /%1 [L,R=301]
+
 RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^ %{REQUEST_URI}.html [NC,L]
+
+RewriteRule (.*)/?$ /$1.html [L]
 </IfModule>

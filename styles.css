@@ -719,7 +719,7 @@ a.playBtn::after {
         display: none;
     }
     .cycle-outreach-icon-2{
-        display: block;
+        display: unset;
     }
     .cycle-outreach-text{
         color:#000000;

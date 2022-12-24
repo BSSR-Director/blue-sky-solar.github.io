@@ -743,6 +743,11 @@ a.playBtn::after {
 .header-container{
     max-width: 100%;
     margin: auto;
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 .header-box{
     max-width: 1200px;
@@ -752,6 +757,7 @@ a.playBtn::after {
     margin: auto;
     z-index: 1;
     padding: 0vh 3vh 0vh 3vh;
+    
 }
 .header-logo{
     position: absolute;

@@ -546,6 +546,11 @@ body::-webkit-scrollbar {
     vertical-align: middle; 
     height: 18px;
 }
+.cycle-outreach-icon-2{
+    vertical-align: middle; 
+    height: 18px;
+    display: none;
+}
 #playBtn {
     width: 100%;
     display: flex;
@@ -709,6 +714,12 @@ a.playBtn::after {
     .cycle-outreach-box{
         background-color: unset;
         padding-bottom: 80px;
+    }
+    .cycle-outreach-icon{
+        display: none;
+    }
+    .cycle-outreach-icon-2{
+        display: block;
     }
     .cycle-outreach-text{
         color:#000000;

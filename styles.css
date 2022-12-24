@@ -72,7 +72,7 @@ body::-webkit-scrollbar {
 }
 .wsc-box{
     max-width: 1200px;
-    padding: 20px 3vw 20px 3vw;
+    padding: 20px 4vw 20px 4vw;
     margin: auto;
 }
 .wsc-text{
@@ -90,7 +90,7 @@ body::-webkit-scrollbar {
 }
 .our-sponsors-box{
     max-width: 1200px;
-    padding: 20px 3vw 20px 3vw;
+    padding: 20px 4vw 20px 4vw;
     margin: auto;
 }
 .our-sponsors-title{
@@ -207,23 +207,32 @@ body::-webkit-scrollbar {
 .cars-box{
     max-width: 1200px;
     margin: auto;
+    padding: 40px 4vw 40px 4vw;
+
 }
 .cars-text{
     font-family: "Barlow";
     font-size: 18px;
     font-weight: 500;
     color: black;
+    padding-top: 5px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 .cars-title{
+   
     font-family: "Barlow";
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 500;
     text-align: left;
+    max-width: 100%;
+    padding-bottom: 5px;
     color: #162854;
-    padding-bottom: 20px;
+    border-bottom: 1px solid #162854;
+
 }
 .cars-11{
-    padding: 40px 3vw 40px 3vw;
+    padding-bottom: 40px;
 
 }
 .cars-grid{
@@ -231,7 +240,7 @@ body::-webkit-scrollbar {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: auto;
-    padding: 40px 3vw 40px 3vw;
+    padding: 0 0 40px 0;
 }
 .cars-image{
     max-width: 100%;
@@ -273,7 +282,7 @@ body::-webkit-scrollbar {
 
 .team-box{
     max-width: 1200px;
-    padding: 20px 3vw 20px 3vw;
+    padding: 20px 4vw 20px 4vw;
     margin: auto;
 }
 .team-title{
@@ -358,14 +367,14 @@ body::-webkit-scrollbar {
     margin-right: auto;
 }
 .home-intro-box{
-    padding: 80px 3vw 0px 3vw;
+    padding: 80px 4vw 0px 4vw;
     max-width: 1200px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: auto;
 }
 .home-who-box{
-    padding: 80px 3vw 0px 3vw;
+    padding: 80px 4vw 0px 4vw;
     max-width: 1200px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -390,6 +399,8 @@ body::-webkit-scrollbar {
     font-size: 18px;
     font-weight: 500;
     color: black;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .home-values-box{
@@ -466,7 +477,7 @@ body::-webkit-scrollbar {
     text-align: center;
 }
 .cycle-dev-box{
-    padding: 40px 3vw 40px 3vw;
+    padding: 40px 4vw 40px 4vw;
 }
 .cycle-dev-title{
     font-family: "Barlow Semi Condensed";
@@ -480,9 +491,11 @@ body::-webkit-scrollbar {
     font-weight: 500;
     max-width: 1000px;
     margin: auto;
+    text-align: justify;
+    text-justify: inter-word;
 }
 .cycle-outreach-box{
-    padding: 40px 3vw 40px 3vw;
+    padding: 40px 4vw 40px 4vw;
     background-color: #162854;
 }
 .cycle-outreach-title{
@@ -499,6 +512,8 @@ body::-webkit-scrollbar {
     max-width: 1000px;
     margin: auto;
     color: white;
+    text-align: justify;
+    text-justify: inter-word;
 }
 .cycle-outreach-icon{
     vertical-align: middle; 
@@ -973,6 +988,8 @@ a.playBtn::after {
     font-size: 18px;
     font-weight: 500;
     color: black;
+    text-align: justify;
+    text-justify: inter-word;
 }
 .contact-info{
     padding: 30px 0px 30px 0px;

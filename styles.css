@@ -674,7 +674,7 @@ a.playBtn::after {
     opacity: 0.3;
 }
 #cycle-padder{
-    height: 500px;
+    height: 700px;
 }
 @media(max-width: 1350px){
     .cycle-content{

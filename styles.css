@@ -359,8 +359,6 @@ body::-webkit-scrollbar {
 .home-image-container{
     position: relative;
     text-align: center;
-    
-
 }
 .home-image{
     width: 100%;
@@ -376,7 +374,7 @@ body::-webkit-scrollbar {
     font-size: 144px;
     font-weight: 700;
     color: #FFFFFF;
-    text-shadow: 4px 4px 0px #162854; 
+    text-shadow: 6px 6px 0px #162854; 
 }
 
 
@@ -462,6 +460,7 @@ body::-webkit-scrollbar {
 @media(max-width: 1300px){
     .home-image-text{
         font-size: 96px;
+        text-shadow: 4px 4px 0px #162854; 
     }
 }
 @media(max-width: 1100px){

@@ -1144,8 +1144,8 @@ button{
     margin: auto;
 }
 .footer-text{
-    font-family: "Barlow";
-    font-size: 16px;
+    font-family: "Barlow Semi Condensed";
+    font-size: 18px;
     font-weight: 500;
     color: white;
     height: 30px;
@@ -1159,7 +1159,7 @@ button{
     text-align: center;
     padding-bottom: 10px;
     font-family: "Barlow Semi Condensed";
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700;
     color: white;
 }

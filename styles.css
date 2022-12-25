@@ -1154,12 +1154,13 @@ button{
     height: 90px
 }
 .footer-follow-us{
-    font-family: "Barlow";
-    font-size: 20px;
-    font-weight: 500;
-    color: white;
+    
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    font-family: "Barlow Semi Condensed";
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
 }
 .footer-icon-box{
     display: grid;

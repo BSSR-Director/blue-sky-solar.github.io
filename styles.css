@@ -1064,6 +1064,18 @@ a.playBtn::after {
     display: grid;
     grid-template-columns: 7fr 10fr;
 }
+.contact-info-text{
+    text-align: center;
+}
+@media(max-width:450px){
+    .contact-info{
+        grid-template-columns: 1fr;
+    }
+    .contact-info-text{
+        text-align: left;
+    }
+}
+
 .contact-info-detail{
     font-family: "Barlow";
     font-size: 18px;
@@ -1142,6 +1154,7 @@ button{
 .footer-info{
     height: 90px;
     margin: auto;
+    padding: 0 3vw 0 3vw;
 }
 .footer-text{
     font-family: "Barlow Semi Condensed";
@@ -1155,7 +1168,6 @@ button{
     height: 90px
 }
 .footer-follow-us{
-    
     text-align: center;
     padding-bottom: 10px;
     font-family: "Barlow Semi Condensed";
@@ -1173,12 +1185,11 @@ button{
     display: block;
     margin: auto;
 }
-@media (max-width: 900px)
+@media (max-width: 1000px)
 {
     .footer-box{
         grid-template-columns: 1fr;
         padding: 20px 0px 20px 0px;
-
     }
     .footer-text{
         text-align: center;
@@ -1194,5 +1205,10 @@ button{
         top: 50%;
 
         transform: translate(-50%, -50%);
+    }
+}
+@media(max-width: 450px){
+    .footer-info{
+        padding-bottom: 20px;
     }
 }

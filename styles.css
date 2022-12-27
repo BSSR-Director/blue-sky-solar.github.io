@@ -914,8 +914,8 @@ a.playBtn::after {
     top: 100px;
     z-index: 1;
     background-color: #FFFFFF;
-    border-bottom-left-radius: 20px;;
-    border-bottom-right-radius: 20px;;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 .header-hamburger-dropdown-item{
     padding: 10px 20px 10px 20px;

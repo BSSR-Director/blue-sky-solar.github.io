@@ -482,6 +482,9 @@ body::-webkit-scrollbar {
     .home-intro-box{
         padding-top: 40px;
     }
+    .home-who-box{
+        padding-top: 40px;
+    }
     .home-values-box{
         grid-template-columns: 1fr;
     }

@@ -919,6 +919,11 @@ a.playBtn::after {
     background-color: #FFFFFF;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+
+   
+
+
+
 }
 .header-hamburger-dropdown-item{
     padding: 10px 20px 10px 20px;
@@ -946,7 +951,8 @@ a.playBtn::after {
 }
 .header-hamburger-dropdown.active{
     display: block;
-    animation: bounce-up 0.3s;
+    animation: fadeInDown 0.5s;
+    transform-origin:  top;
 }
 
 

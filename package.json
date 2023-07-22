@@ -1,0 +1,25 @@
+{
+  "name": "blue-sky-solar.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "dependencies": {
+    "package": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node scripts.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blue-sky-solar/blue-sky-solar.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blue-sky-solar/blue-sky-solar.github.io/issues"
+  },
+  "homepage": "https://github.com/blue-sky-solar/blue-sky-solar.github.io#readme"
+}

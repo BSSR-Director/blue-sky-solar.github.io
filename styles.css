@@ -1306,7 +1306,7 @@ button {
     margin: auto;
 }
 
-
+/* EMBEDDED GOOGLE MAP */
 #map {
     min-width: 50%;
     min-height: 100%;
@@ -1314,7 +1314,7 @@ button {
     margin-left: auto;
     margin-right: auto;
     flex: 1;
-  }
+}
 
 iframe {
     display: block;
@@ -1351,7 +1351,6 @@ iframe {
     padding-bottom: 20px;
 }
   
-
 @media (max-width: 1000px) {
     .footer-box {
         grid-template-columns: 1fr;

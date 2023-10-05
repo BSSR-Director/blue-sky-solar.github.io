@@ -403,6 +403,8 @@ body::-webkit-scrollbar {
 .home-image {
     width: 100%;
     display: block;
+    max-height: 800px;
+    object-fit: cover;
 }
 
 .home-image-text {
@@ -783,9 +785,12 @@ a.playBtn::after {
 }
 
 .cycle-image {
-    max-width: 100%;
+    width: 100%;
     display: block;
     opacity: 0.3;
+    max-height: 700px;
+    object-fit: cover;
+
 }
 
 #cycle-padder {

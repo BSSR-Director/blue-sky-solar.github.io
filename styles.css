@@ -1,6 +1,7 @@
 /* GLOBAL */
 a {
     text-decoration-line: none;
+    color: black;
 }
 
 a:-webkit-any-link {
@@ -27,7 +28,7 @@ body::-webkit-scrollbar {
 .page-banner-image {
     width: 100%;
     object-fit: cover;
-    height: 500px;
+    height: 550px;
     opacity: 0.5;
     display: block;
 }

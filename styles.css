@@ -389,6 +389,29 @@ body::-webkit-scrollbar {
     animation: fadeInUp 0.5s;
 }
 
+/* OUR HISTORY */
+
+.history-container {
+    max-width: 100%;
+    margin: auto;
+    display: block;
+}
+
+.history-image-container {
+    position: relative;
+    text-align: center;
+}
+
+.history-image {
+    border: 1px solid black;
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 /* HOME/INDEX */
 .home-container {
     max-width: 100%;
@@ -903,7 +926,7 @@ a.playBtn::after {
 
 .header-item {
     font-family: "Barlow";
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 700;
     line-height: 100px;
     text-align: left;
@@ -949,6 +972,7 @@ a.playBtn::after {
 .dropdown-item {
     line-height: 30px;
     height: 35px;
+    max-width: 100%;
     text-align: left;
     display: block;
 }

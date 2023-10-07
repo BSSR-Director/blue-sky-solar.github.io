@@ -20,6 +20,11 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+.page-contianer {
+    max-width: 100%;
+    margin: auto;
+}
+
 .page-banner {
     background-color: black;
     position: relative;
@@ -76,10 +81,6 @@ body::-webkit-scrollbar {
 }
 
 /* WSC */
-.wsc-container {
-    max-width: 100%;
-    margin: auto;
-}
 
 .wsc-box {
     max-width: 1200px;
@@ -111,10 +112,6 @@ body::-webkit-scrollbar {
 }
 
 /* Our Sponsors */
-.our-sponsors-container {
-    max-width: 100%;
-    margin: auto;
-}
 
 .our-sponsors-box {
     max-width: 1200px;
@@ -222,10 +219,6 @@ body::-webkit-scrollbar {
 }
 
 /* Become a Sponsors */
-.become-a-sponsor-container {
-    max-width: 100%;
-    margin: auto;
-}
 
 .become-a-sponsor-box {
     max-width: 1200px;
@@ -236,10 +229,6 @@ body::-webkit-scrollbar {
 }
 
 /* SOLAR CARS */
-.cars-container {
-    max-width: 100%;
-    margin: auto;
-}
 
 .cars-box {
     max-width: 1200px;
@@ -320,10 +309,6 @@ body::-webkit-scrollbar {
 }
 
 /* TEAM */
-.team-container {
-    max-width: 100%;
-    margin: auto;
-}
 
 .team-box {
     max-width: 1200px;
@@ -1169,10 +1154,6 @@ a.playBtn::after {
 }
 
 /* CONTACT US */
-.contact-container {
-    max-width: 100%;
-    margin: auto;
-}
 
 .contact-box {
     max-width: 1200px;

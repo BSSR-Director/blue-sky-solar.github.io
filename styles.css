@@ -905,7 +905,7 @@ a.playBtn::after {
     max-width: 1200px;
     height: 100px;
     display: grid;
-    grid-template-columns: 4fr 1fr 2fr 1fr 2fr 2fr 1fr;
+    grid-template-columns: 4fr 1fr 2fr 1fr 1fr 2fr 2fr 1fr;
     margin: auto;
     z-index: 1;
     padding: 0vh 3vh 0vh 3vh;

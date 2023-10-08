@@ -122,7 +122,7 @@ body::-webkit-scrollbar {
 .media-grid-container {
     display: grid;
     grid-template-columns: fit-content(30%) fit-content(30%) fit-content(30%);
-    grid-gap: 20px;
+    grid-gap: 10px;
     justify-content: space-evenly;
     justify-items: center;
     align-content: space-evenly;
@@ -130,10 +130,12 @@ body::-webkit-scrollbar {
 }
 
 .media-grid-item {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.2);
     margin: auto;
     transition: 0.3s;
-    border-radius: 5px; /* 5px rounded corners */
+    border-radius: 10px; /* 5px rounded corners */
+    display: inline-block;
+    position: relative;
 }
   
 .media-grid-item img {
@@ -142,25 +144,59 @@ body::-webkit-scrollbar {
     object-fit: cover;
     width: 100%;
     height: 100%;
-    max-height: 300px;
-}
-  
-.media-text {
-    font-family: "Barlow";
-    font-size: 18px;
-    font-weight: 600;
-    color: black;
-    padding-top: 20px;
-    text-align: center; 
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.media-date {
-    font-family: "Barlow";
-    font-size: 16px;
-    font-weight: 500;
+.overlay {
+    /* Positioning of text */
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: inherit;
+    /* Overlay itself */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Colours */
     color: black;
-    padding-bottom: 20px;
-    text-align: center; 
+    background-color: rgba(1, 1, 1, 0.6); /* Semi-transparent black */
+    opacity: 0; /* Initial opacity */
+    transition: opacity 0.3s ease;
+    /* Text-related params */
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+.media-grid-item:hover .overlay {
+    opacity: 1; 
+}
+  
+.overlay .media-text {
+    font-family: "Barlow";
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: auto;
+    align-self: center;
+}
+
+.overlay .media-date {
+    font-family: "Barlow";
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: auto;
+    align-self: center;
 }
 
 .media-link-icon {

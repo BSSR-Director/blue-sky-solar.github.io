@@ -4,6 +4,7 @@
   "description": "",
   "main": "script.js",
   "dependencies": {
+    "blue-sky-solar.github.io": "file:",
     "package": "^1.0.1"
   },
   "scripts": {

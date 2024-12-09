@@ -232,11 +232,12 @@ body::-webkit-scrollbar {
   max-width: 90%;
   margin: auto;
   padding: 20px 0px 20px 0px;
+  transition: transform .2s; /* Animation */
 }
 
 .our-sponsors-image:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  transition: 0.3s;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  transform: scale(1.2);
 }
 
 .our-sponsors-grid-1 {
@@ -260,10 +261,38 @@ body::-webkit-scrollbar {
   align-items: center;
 }
 
+.our-sponsors-grid-3-star {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
+  align-items: center;
+}
+
+.our-sponsors-grid-4 {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+}
+
 .our-sponsors-grid-5 {
   max-width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.our-sponsors-grid-6 {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.our-sponsors-grid-8 {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   align-items: center;
 }
 

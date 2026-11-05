@@ -1562,3 +1562,71 @@ iframe {
     padding-bottom: 20px;
   }
 }
+
+/* SPONSORS GRID - Unified center formatting */
+
+.our-sponsors-grid-4,
+.our-sponsors-grid-3-star,
+.our-sponsors-grid-5,
+.our-sponsors-grid-8 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: 40px auto;
+}
+
+/* Number of logos per row for each tier */
+.our-sponsors-grid-4,
+.our-sponsors-grid-3-star {
+    --columns: 4;
+}
+
+.our-sponsors-grid-5 {
+    --columns: 5;
+}
+
+.our-sponsors-grid-8 {
+    --columns: 8;
+}
+
+/* Give each logo an equal share of its row */
+:is(
+    .our-sponsors-grid-4,
+    .our-sponsors-grid-3-star,
+    .our-sponsors-grid-5,
+    .our-sponsors-grid-8
+) > div {
+    flex: 0 0 calc(
+        (100% - (var(--columns) - 1) * 24px) / var(--columns)
+    );
+    min-width: 0;
+}
+
+:is(
+    .our-sponsors-grid-4,
+    .our-sponsors-grid-3-star,
+    .our-sponsors-grid-5,
+    .our-sponsors-grid-8
+) a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-sponsors-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Two logos per row on smaller screens */
+@media (max-width: 700px) {
+    .our-sponsors-grid-4,
+    .our-sponsors-grid-3-star,
+    .our-sponsors-grid-5,
+    .our-sponsors-grid-8 {
+        --columns: 2;
+    }
+}

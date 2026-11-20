@@ -1093,6 +1093,7 @@ a.playBtn::after {
   display: inline-block;
   position: relative;
   color: black;
+  white-space: nowrap;
 }
 
 .header-title:hover {
